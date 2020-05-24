@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Default suite">
+	
+	<listeners>
+		<listener class-name="com.netBanking.utilities.Reporting" />
+	</listeners>
+	
+
+	<test name="Default test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			    <!--  <class name="com.netBanking.testCases.Tc_LoginTest_01" /> -->
+			 <class name="com.netBanking.testCases.Tc_Login_DDT_02" />
+			 <!--  <class name="com.inetbanking.testCases.TC_AddCustomerTest_003" /> -->
+
+		</classes>
+
+	</test>
+
+</suite>
